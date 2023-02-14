@@ -43,3 +43,18 @@ Node.js는 크롬 V8 자바스크립트 엔진으로 빌드 된 자바스크립�
 ![image](https://user-images.githubusercontent.com/114047532/218674636-f95a11c3-f14c-4617-abd2-4bf8ab23933e.png)
 
 
+## 노드의 역할
+#### 1. 서버로서의 노드
+* 노드 서버의 장단점
+
+![image](https://user-images.githubusercontent.com/114047532/218675587-125aff5c-3a73-479c-932f-83f0f91468e2.png)
+
+* CPU 작업을 위해 AWS Lambda나 Google Cloud Functions 같은 별도 서비스 사용
+* 페이팔, 넷플릭스, 나사, 월마트, 링크드인, 우버 등에서 메인 또는 서브 서버로 사용
+
+#### 2. 서버 외의 노드
+* 자바스크립트 런타임이기 때문에 용도가 서버에만 한정되지 않음
+* 웹, 모바일, 데스크탑 애플리케이션에도 사용
+ * 웹 프레임워크: Angular, React, Vue, Meteor 등
+ * 모바일 앱 프레임워크: React Native
+ * 데스크탑 개발 도구: Electron(Atom, Slack, VSCode, Discord 등 제작)
